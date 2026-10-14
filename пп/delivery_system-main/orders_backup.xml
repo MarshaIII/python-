@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<orders>
+  <order>
+    <id>3</id>
+    <customer_id>3</customer_id>
+    <customer_name>Олег</customer_name>
+    <order_date>2026-06-08</order_date>
+    <status>выполнен</status>
+    <total>1400.0</total>
+    <items>
+      <item>
+        <product_name>Бургер</product_name>
+        <quantity>4</quantity>
+        <price>350.0</price>
+      </item>
+    </items>
+  </order>
+  <order>
+    <id>2</id>
+    <customer_id>2</customer_id>
+    <customer_name>Анна</customer_name>
+    <order_date>2026-06-08</order_date>
+    <status>в доставке</status>
+    <total>1500.0</total>
+    <items>
+      <item>
+        <product_name>Суши</product_name>
+        <quantity>3</quantity>
+        <price>500.0</price>
+      </item>
+    </items>
+  </order>
+  <order>
+    <id>1</id>
+    <customer_id>1</customer_id>
+    <customer_name>Иван</customer_name>
+    <order_date>2026-06-08</order_date>
+    <status>новый</status>
+    <total>1700.0</total>
+    <items>
+      <item>
+        <product_name>Пицца</product_name>
+        <quantity>2</quantity>
+        <price>750.0</price>
+      </item>
+      <item>
+        <product_name>Сок</product_name>
+        <quantity>1</quantity>
+        <price>200.0</price>
+      </item>
+    </items>
+  </order>
+</orders>
